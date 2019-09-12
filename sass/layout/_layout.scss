@@ -1,0 +1,48 @@
+@media (min-width: 1200px){
+    .container {
+        max-width: 1440px;
+    }
+}
+
+.header{
+    height: 100%;
+    width: auto;
+    background-color: $secondary-background-color;
+}
+
+.navigation{
+    max-width: $max-width;
+}
+
+.nav-grid{
+    width: 100%;
+    @media screen and (min-width: 1016px ){
+        display: grid;
+        grid-template-columns: repeat(7, 2fr) 3fr;
+        justify-items: center;
+        align-items: center;
+
+    }
+}
+
+.hero{
+    margin-top: 10rem;
+    max-width: $max-width;
+}
+
+.brand-div{
+    margin-top: 9rem;
+    margin-left: -4rem;
+    max-width: $max-width;
+
+}
+
+.arrow-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about{
+    margin-top: 6rem;
+}

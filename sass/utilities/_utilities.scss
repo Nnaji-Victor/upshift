@@ -1,0 +1,35 @@
+.u-round-icon{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.util-dark{
+    background-color: $ball-color-dark;
+}
+
+.util-light{
+    background-color: $ball-color-light;
+}
+
+.util-btn-light{
+    background-color: $button-color-light;
+    color: rgba($button-color-dark, 0.8);
+
+    &:hover{
+        background-color: $button-color-light;
+        color: rgba($button-color-dark, 0.8);
+    }
+}
+
+.util-btn-dark{
+    background-color: rgba($button-color-dark, 0.8);
+    color: #fff;
+
+    &:hover{
+        background-color: rgba($button-color-dark, 0.8);
+        color: #fff;
+    }
+}
+
