@@ -187,3 +187,30 @@
     width: 80%;
 }
 
+.feature-box{
+    width: 30ch;
+    line-height: 1.7;
+    // background-color: red;
+}
+
+.features{
+
+    &__img{
+
+    }
+
+    &__heading{
+        font-size: 1.6rem;
+    }
+}
+
+.faceup{
+    transform: translateX(90%) translateY(300%);
+    width: 10rem;
+}
+
+.facedown{
+    transform: translateX(90%) translateY(200%);
+    width: 10rem;
+}
+
