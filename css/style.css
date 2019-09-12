@@ -271,6 +271,21 @@ q:after {
 .content-2-hr {
   width: 80%; }
 
+.feature-box {
+  width: 30ch;
+  line-height: 1.7; }
+
+.features__heading {
+  font-size: 1.6rem; }
+
+.faceup {
+  transform: translateX(90%) translateY(300%);
+  width: 10rem; }
+
+.facedown {
+  transform: translateX(90%) translateY(200%);
+  width: 10rem; }
+
 @media (min-width: 1200px) {
   .container {
     max-width: 1440px; } }
@@ -309,7 +324,11 @@ q:after {
 .about {
   margin-top: 6rem;
   max-width: 1440px;
-  height: 90vh; }
+  height: 90%; }
+
+.features {
+  margin-top: 5rem;
+  text-align: center; }
 
 .u-round-icon {
   height: 15px;
