@@ -54,3 +54,17 @@
     text-align: center;
 }
 
+.service-zone{
+    margin-top: 10rem;
+    height: 100vh;
+}
+
+.sz-grid{
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    grid-template-rows: min-content 1fr;
+    grid-gap: 1rem !important;
+
+    width: 68%;
+}
+
