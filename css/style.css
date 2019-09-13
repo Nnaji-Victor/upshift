@@ -423,6 +423,17 @@ q:after {
 .img-3 {
   height: 14rem; }
 
+.cta-last {
+  margin-top: 8rem; }
+
+.cta-last-btn {
+  padding: 1rem 6rem; }
+
+.btn-end {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; }
+
 @media (min-width: 1200px) {
   .container {
     max-width: 1440px; } }
