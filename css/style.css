@@ -165,15 +165,13 @@ q:after {
   margin: 4rem 0 0 40%; }
 
 .brand-logo {
-  height: 6rem; }
-  .brand-logo:first-child {
-    margin-left: -1.8rem; }
-  .brand-logo:not(last-child) {
-    padding-left: 2rem; }
+  max-height: 5rem; }
 
 .brands {
   background-color: #fff;
-  width: 100%; }
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
   @media (max-width: 1361px) {
     .brands {
       overflow: auto;
@@ -185,7 +183,7 @@ q:after {
   fill: #72738e;
   height: 1rem;
   width: 1rem;
-  transform: translateY(59px); }
+  transform: translateY(130%); }
 
 .about-img-container {
   height: auto;
@@ -445,7 +443,7 @@ q:after {
 
 .service-zone {
   margin-top: 10rem;
-  height: 100vh;
+  height: auto;
   max-width: 1440px; }
 
 .sz-grid {
