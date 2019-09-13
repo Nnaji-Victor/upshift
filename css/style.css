@@ -360,7 +360,8 @@ q:after {
 .price-container {
   width: 85%;
   height: auto;
-  border: 1px solid #e7e8eb; }
+  border: 1px solid #e7e8eb;
+  padding: 0 2rem 0 2rem; }
 
 .price-list-2 {
   border: none;
@@ -434,9 +435,59 @@ q:after {
   align-items: center;
   justify-content: flex-end; }
 
+.footer-links {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 20px; }
+
+.footer-items {
+  list-style: none;
+  color: #5c5c78; }
+
+.footer-telegram {
+  height: 2rem;
+  fill: #72738e; }
+
+.footer-div {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.footer-input {
+  border: none;
+  border-radius: 40px;
+  width: 24rem;
+  height: 3rem;
+  padding: 20px;
+  margin-right: -10.5rem;
+  background-color: #e1e1e7; }
+  .footer-input::placeholder {
+    color: #c2c2cc; }
+
+.last-footer {
+  margin-top: 4rem; }
+
+.fbg {
+  height: 3rem;
+  width: 3rem;
+  background-color: #e1e1e7;
+  border-radius: 40px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .fbg:not(last-child) {
+    margin-right: 2rem; }
+
+.footer-icon {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  fill: #333456; }
+
 @media (min-width: 1200px) {
   .container {
-    max-width: 1440px; } }
+    max-width: 1340px; } }
 
 .header {
   height: 100%;
@@ -500,6 +551,9 @@ q:after {
 
 .thecar-container {
   background-color: #f5f5f7; }
+
+.last-footer {
+  max-width: 1440px; }
 
 .u-round-icon {
   height: 15px;

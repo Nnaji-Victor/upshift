@@ -308,6 +308,7 @@
     width: 85%;
     height: auto;
     border: 1px solid $button-color-light;
+    padding: 0 2rem 0 2rem;
 }
 
 .price-list-2{
@@ -396,3 +397,68 @@
     align-items: center;
     justify-content: flex-end;
 }
+
+.footer-links{
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.footer-items{
+    list-style: none;
+    color: $bold-font-color;
+}
+
+.footer-telegram{
+    height: 2rem;
+    fill: #72738e;
+}
+
+.footer-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-input{
+    border: none;
+    border-radius: 40px;
+    width: 24rem;
+    height: 3rem;
+    padding: 20px;
+    margin-right: -10.5rem;
+    background-color: $ball-color-light;
+
+    &::placeholder{
+        color: $tertiary-font-color;
+    }
+}
+
+.last-footer{
+    margin-top: 4rem;
+}
+
+.fbg{
+    height: 3rem;
+    width: 3rem;
+    background-color: $ball-color-light;
+    border-radius: 40px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:not(last-child){
+        margin-right: 2rem; 
+    }
+}
+
+.footer-icon{
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    fill: $secondary-box-color;
+
+  }
+
+  
