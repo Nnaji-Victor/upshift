@@ -309,3 +309,49 @@
     box-decoration-break: clone;
 }
 
+.price-container{
+    width: 85%;
+    height: auto;
+    border: 1px solid $button-color-light;
+}
+
+.price-list-2{
+    border: none;
+    border-top: 2px solid $button-color-dark;
+    transform: translateY(-15px);
+    display: inline-block;
+    padding-bottom: .7rem;
+    box-shadow: 0 2rem 4rem rgba($ball-color-dark, 1);
+}
+
+.price-list-heading{
+    font-size: 1.6rem;
+    color: $secondary-box-color;
+}
+
+.price-list-sub{
+    color: $dull-font-color;
+}
+
+.price-list-price{
+    font-size: 2rem;
+    color: $button-color-dark;
+}
+.price-list__line{
+    width: 80%;
+}
+
+.price-list-content{
+    line-height: 1.7;
+    color: $button-color-dark;
+}
+.price-recommend{
+    text-transform: uppercase;
+    color: $button-color-dark;
+    font-size: .6rem; 
+}
+
+.price-reduce{
+    font-size: .8rem;
+}
+
