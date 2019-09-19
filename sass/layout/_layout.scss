@@ -28,12 +28,20 @@
 .hero{
     margin-top: 10rem;
     max-width: $max-width;
+
+    @media only screen and (max-width: 950px){
+        margin-top: 2rem;
+    }
 }
 
 .brand-div{
     margin-top: 9rem;
     margin-left: -4rem;
     max-width: $max-width;
+
+    @media only screen and (max-width: 424px){
+        margin-top: 3rem;
+    }
 
 }
 
@@ -47,6 +55,11 @@
     margin-top: 6rem;
     max-width: $max-width;
     height: 90%;
+
+    @media screen and (max-width: 991px) {
+        text-align: center;
+        width: 100%;
+    }
 }
 
 .features{

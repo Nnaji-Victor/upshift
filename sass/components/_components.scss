@@ -6,21 +6,42 @@
     border-radius: 50px;
     padding: .8rem 2rem;
     justify-self: center;
+
+    @media screen and (max-width: 990px){
+        justify-self: start;
+        width: 50%;
+    }
 }
 
 .hero-heading{
     font-weight: 550;
     color: $main-font-color;
+
+    @media only screen and (max-width: 990px){
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
 }
 
 .hero-paragraph{
     color: #767791;
+
+    @media only screen and (max-width: 990px){
+        margin-bottom: 2rem;
+     }
 }
 
 .hero-sub{
     display: block;
-}
 
+}
+.cta{
+    @media only screen and (max-width: 426px){
+        display: grid;
+        justify-items: center;
+        grid-row-gap: 6px;
+     }
+}
 .cta_btn{
     border: none;
     background-color: inherit;
@@ -28,6 +49,10 @@
     padding-bottom: 4%;
     padding-right: 5%;
     margin-right: 5%;
+
+    @media only screen and (max-width: 426px){
+        width: 90%;
+     }
 
     &::placeholder{
         color: $tertiary-font-color;
@@ -84,6 +109,16 @@
     padding: 3rem 2.5rem 2rem 2rem;
     color: $tertiary-font-color;
     line-height: 1.8;
+
+    @media (max-width: 1195px){
+        width: 85%;
+    } 
+
+    @media (max-width: 991px){
+        width: 100%;
+        transform: translateX(0%) translateY(0%);
+    } 
+
 }
 
 .about-text{
@@ -106,8 +141,16 @@
     display: flex;
     text-transform: uppercase;
 
+    @media screen and (max-width: 420px){
+        display: block;
+    }
+
     img{
         height: 2rem;
+
+        @media screen and (max-width: 991px){
+            margin-right: .4rem;
+        }
     }
 }
 
@@ -125,6 +168,10 @@
 .about-left{
     margin-top: 5rem;
     max-width: 35rem;
+
+    @media (max-width: 992px){
+        max-width: none;
+    }
 
     &__title{
 
@@ -155,19 +202,45 @@
         color: $dull-font-color;
         width: 80%;
         margin-bottom: 2rem;
+
+        @media screen and (max-width: 991px) {
+            text-align: center;
+            width: 100%;
+        }
     }
 
     &__line{
         margin-right: 40%;
+
+        @media screen and (max-width: 991px) {
+            text-align: center;
+            width: 100%;
+            margin-bottom: 1rem;
+        }
     }
 
     &__img{
         height: 2.5rem;
+
+        @media (max-width: 991px){
+            margin-right: 1rem;
+        }
+    }
+
+    &__misc{
+        @media (max-width: 991px){
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+
     }
 
     &__cta{
+
         &--1{
            color: $dull-font-color;
+           text-align: start;
         }
 
         &--2{
@@ -309,6 +382,10 @@
     height: auto;
     border: 1px solid $button-color-light;
     padding: 0 2rem 0 2rem;
+
+    @media screen and (max-width: 1200px ){
+        width: 100%;
+    }
 }
 
 .price-list-2{
